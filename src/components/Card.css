@@ -1,0 +1,85 @@
+.map-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20%;
+    size: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid hsl(0, 0%, 75%);
+    border-radius: 5%;
+    max-width: 291.3px;
+    min-height: 335.6px;
+    margin: 5%;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin-left: 5%;
+    color: hsl(0, 0%,  35%);
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 75%);
+    margin: 5%;
+}
+
+.button {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 100px;
+    color: blue;
+    width: 170px;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 12%;
+}
+
+.main-content button {
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-left: 5%;
+    margin-right: 7%;
+}
+
+.info {
+    display: inline-flex;
+
+}
+
+.main-content h3 {
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+.img {
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
